@@ -73,3 +73,25 @@ header li:hover {
     display: inline-block;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+#websiteproject {
+    background-color: lightpink;
+}
+
+
+
+.websiteproject p {
+    max-height: 200px;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 150px;
+    text-align: justify;
+    background-color:hotpink;
+    padding: 80px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.codecademy {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
