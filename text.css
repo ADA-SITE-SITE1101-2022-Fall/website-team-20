@@ -119,8 +119,10 @@ header li:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.codecademy {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+.codecademy li{
+    font-family:'Courier New', Courier, monospace;
+    display: block;    
+    color: antiquewhite;
 }
 
 h6 {
@@ -146,5 +148,28 @@ button {
 .specific {
     background-color: hotpink;
     position:absolute;
-    padding: 40px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    z-index: 10;
+    background-color: rgb(59, 53, 53);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+
+.footerx li{
+    text-align: center;
+    display: inline-block;
+}
+
+.footerx a{
+    color: antiquewhite;
+}
+.footerx a:hover {
+    color:rgb(175, 156, 130)
 }
